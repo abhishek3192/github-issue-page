@@ -1,0 +1,91 @@
+.container{
+    width: 80%;
+}
+
+.watch{
+    border: 5px;
+    color: #24292e;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comment{
+    float: right;
+    padding: 14px;
+}
+
+.watchNumber{
+    position: absolute;
+    display: inline-block;
+    margin: 5px;
+}
+
+.mainDiv{
+    display: flex;
+    box-shadow: 0 4px 6px -6px #222;
+    margin-bottom: 50px;
+}
+
+.Heading {
+    color: #0366d6;
+    padding: 18px;
+    width: 80%;
+}
+
+.buttonSegment{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    
+    
+}
+
+.badge-warning{
+    background-color: #f49118 !important;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.badge-danger{
+    background-color: #b5274d;
+    padding: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.circle{
+    color: #28a745;
+    padding: 5px;
+}
+
+.x-split-button {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    /* border-radius: 10px !important; */
+  }
+  
+  .x-button {
+    position: relative;
+    margin: 0;
+    height: 30px;
+    float: left;
+    outline: none;
+    line-height: 27px;
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+    box-shadow: 1px 1px 2px #E0E0E0;
+  }
+  
+  .x-button:hover {
+    cursor: pointer;
+    background: #E0E0E0;
+  }
+  
+  .x-button:active {
+    background: #D3D3D3;
+  }
+  
